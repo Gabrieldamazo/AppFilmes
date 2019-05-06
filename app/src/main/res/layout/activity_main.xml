@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="Filmes"
+        android:textSize="30dp"
+        android:textColor="#6176FF"
+         />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/idCardView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_gravity="center"
+            card_view:contentPadding="10dp"
+            android:layout_margin="10dp"
+            >
+           <ImageView
+               android:layout_width="125dp"
+               android:layout_height="250dp"
+               android:src="@drawable/eu_sou_a_lenda"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="309dp"
+                android:id="@+id/info_text"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:text="                     Eu sou a lenda
+                                 Data de lançamento:18 de janeiro de 2008
+                                Robert Neville é um brilhante
+                                cientista e o único sobrevivente de
+                                uma epidemia que transformou os
+                                humanos em mutantes sedentos
+                                por sangue. Andando pela cidade
+                                de Nova Iorque, ele procura por
+                                outros possíveis sobreviventes
+                                e tenta achar a a cura da praga
+                                usando seu próprio sangue,
+                                que está imune."
+                />
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/idguerramundialz"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        card_view:cardCornerRadius="4dp"
+        android:layout_gravity="center"
+        card_view:contentPadding="10dp"
+        android:layout_margin="10dp"
+        >
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="250dp"
+        android:src="@drawable/guerra_mundialz"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="309dp"
+            android:id="@+id/info_guerra"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:text="                     Guerra Mundial Z
+                                 Data de lançamento:18 de janeiro de 2008
+                                Um vírus letal se espalha
+                                rapidamente e transforma seres
+                                humanos em zumbis. O ex-agente da
+                                ONU Gerry Lane é chamado para
+                                investigar a epidemia que está
+                                acabando com a humanidade,
+                                iniciando uma verdadeira corrida contra o tempo."
+            />
+        
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
